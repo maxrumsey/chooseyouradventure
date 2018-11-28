@@ -1,0 +1,23 @@
+#main {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  background: white;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+#main-image {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  max-width:100%;
+  max-height:50%;
+}
+#main-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

@@ -1,0 +1,10 @@
+{
+  "name": "chooseyouradventure",
+  "version": "1.0.0",
+  "devDependencies": {
+    "static-server": "2.2.1"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/static-server -z -p 3077"
+  }
+}

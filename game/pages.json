@@ -1,0 +1,15 @@
+{
+  "start": {
+    "next": "intro",
+    "content": "main/start"
+  },
+  "pages": {
+    "intro": {
+      "content": "main/intro",
+      "next": "die"
+    },
+    "die": {
+      "content": "main/die"
+    }
+  }
+}
