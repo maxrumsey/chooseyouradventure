@@ -6,6 +6,165 @@
   "pages": {
     "intro": {
       "content": "main/intro",
+      "next": "fathergoing"
+    },
+    "fathergoing": {
+      "content": "homeintro/fathergoing",
+      "options": [
+        "intro@dadrunaway",
+        "intro@dadbegtostay",
+        "intro@dadacceptgone",
+        "dadfollow"
+      ]
+    },
+    "intro@dadrunaway": {
+      "content": "homeintro/runaway",
+      "next": "ontherun"
+    },
+    "intro@dadbegtostay": {
+      "content": "homeintro/dadbegtostay",
+      "next": "dadisgone"
+    },
+    "dadfollow": {
+      "content": "dadfollow/start",
+      "next": "followingdad"
+    },
+    "intro@dadacceptgone": {
+      "content": "homeintro/dadacceptgone",
+      "next": "dadisgone"
+    },
+    "dadisgone": {
+      "content": "homeintro/dadisgone",
+      "options": [
+        "tobagayaga@path",
+        "tobagayaga@bush"
+      ]
+    },
+    "tobagayaga@path": {
+      "content": "tobagayaga/path",
+      "options": [
+        "bandit@run",
+        "bandit@fight"
+      ]
+    },
+    "tobagayaga@bush": {
+      "content": "tobagayaga/bush",
+      "next": "bagayaga@arrive"
+    },
+    "bandit@run": {
+      "content": "tobagayaga/banditrun",
+      "next": "bagayaga@arrive"
+    },
+    "bandit@fight": {
+      "content": "tobagayaga/banditfight",
+      "options": [
+        "bandit@punch",
+        "bandit@kick"
+      ]
+    },
+    "bandit@punch": {
+      "content": "tobagayaga/banditpunch",
+      "next": "die"
+    },
+    "bandit@kick": {
+      "content": "tobagayaga/banditrun",
+      "next": "bagayaga@arrive"
+    },
+    "ontherun": {
+      "content": "ontherun/intro",
+      "options": [
+        "ontherun@cave",
+        "ontherun@tree",
+        "ontherun@sewer"
+      ]
+    },
+    "ontherun@tree": {
+      "content": "ontherun/tree",
+      "next": "die"
+    },
+    "ontherun@sewer": {
+      "content": "ontherun/sewer",
+      "next": "dadisgone"
+    },
+    "ontherun@cave": {
+      "content": "ontherun/cave",
+      "next": "ontherun@weirdsteps"
+    },
+    "ontherun@weirdsteps": {
+      "content": "ontherun/weirdsteps",
+      "options": [
+        "ontherun@downthesteps",
+        "ontherun@stayincave"
+      ]
+    },
+    "ontherun@stayincave": {
+      "content": "ontherun/stayincave",
+      "next": "dadisgone"
+    },
+    "ontherun@downthesteps": {
+      "content": "ontherun/spothouse",
+      "options": [
+        "wizardhouse@enterhouse",
+        "ontherun@hidefromhouse"
+      ]
+    },
+    "ontherun@hidefromhouse": {
+      "content": "ontherun/hidefromhouse",
+      "options": [
+        "wizardhouse@enterhouse",
+        "wizardhouse@enterhouse"
+      ]
+    },
+    "wizardhouse@enterhouse": {
+      "content": "wizardhouse/enterhouse",
+      "options": [
+        "wizardhouse@attemptattack",
+        "wizardhouse@listentowizard"
+      ]
+    },
+    "wizardhouse@attemptattack": {
+      "content": "wizardhouse/attemptattack",
+      "next": "die"
+    },
+    "wizardhouse@listentowizard": {
+      "content": "wizardhouse/listentowizard",
+      "options": [
+        "wizardhouse@becomeapprentice",
+        "wizardhouse@begtofight"
+      ]
+    },
+    "wizardhouse@begtofight": {
+      "content": "wizardhouse/begtofight",
+      "next": "bagayaga@arrive"
+    },
+    "wizardhouse@becomeapprentice": {
+      "content": "wizardhouse/becomeapprentice",
+      "next": "bagayagafight@arrive"
+    },
+    "bagayagafight@arrive": {
+      "content": "wizardhouse/arrivebagayaga",
+      "options": [
+        "bagayagafight@enterhouse",
+        "bagayagafight@waitoutside"
+      ]
+    },
+    "bagayagafight@waitoutside": {
+      "content": "wizardhouse/waitoutsidebagayaga",
+      "next": "die"
+    },
+    "bagayagafight@enterhouse": {
+      "content": "wizardhouse/enterhousebagayaga",
+      "options": [
+        "bagayagafight@explorehouse",
+        "bagayagafight@destroy"
+      ]
+    },
+    "bagayagafight@explorehouse": {
+      "content": "wizardhouse/explorehousebagayaga",
+      "next": "die"
+    },
+    "bagayagafight@destroy": {
+      "content": "wizardhouse/destroyhousebagayaga",
       "next": "die"
     },
     "die": {

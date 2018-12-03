@@ -91,6 +91,38 @@ class AdventureGame {
       .catch(e => {
         console.error(e);
       })
+      this.makeRequest(`game/content/wizardhouse.json`, 'get')
+        .then(content => {
+          // Adds file to content cache.
+          this.contents['wizardhouse'] = content.data;
+        })
+        .catch(e => {
+          console.error(e);
+        })
+      this.makeRequest(`game/content/homeintro.json`, 'get')
+        .then(content => {
+          // Adds file to content cache.
+          this.contents['homeintro'] = content.data;
+        })
+        .catch(e => {
+          console.error(e);
+        })
+      this.makeRequest(`game/content/tobagayaga.json`, 'get')
+        .then(content => {
+          // Adds file to content cache.
+          this.contents['tobagayaga'] = content.data;
+        })
+        .catch(e => {
+          console.error(e);
+        })
+        this.makeRequest(`game/content/ontherun.json`, 'get')
+          .then(content => {
+            // Adds file to content cache.
+            this.contents['ontherun'] = content.data;
+          })
+          .catch(e => {
+            console.error(e);
+          })
   }
   nextScene() {
     this.hideNext();
@@ -123,7 +155,7 @@ class AdventureGame {
   /*
    * Handles the complete setting of the scene
    */
-  setScene(pageName) {
+  async setScene(pageName) {
     if (!this.pages.pages[pageName]) throw new Error(pageName + ' not found.');
     this.page = this.pages.pages[pageName]
     this.loadScene({

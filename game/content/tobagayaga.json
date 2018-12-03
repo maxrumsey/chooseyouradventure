@@ -1,0 +1,33 @@
+{
+  "path": {
+    "content": "You proceed along the path to Baba Yaga’s house, but before you are halfway there a bandit leaps out of the bushes and demands all your money. Despite you telling him you have no money, he still tries to attack you.",
+    "options": [
+      "Run",
+      "Fight"
+    ]
+  },
+  "bush": {
+    "content": "You decide to walk off the path, to avoid bandit, and successfully arrive at Baba Yaga’s hut.",
+    "next": ""
+  },
+  "banditrun": {
+    "content": "You sensibly decide to run away, and you manage to avoid the bandit and arrive at Baba Yaga’s house."
+  },
+  "banditfight": {
+    "content": "You decide to fight this wretched scum, and you have to decide what sort of move you will use.",
+    "options": [
+      "Punch",
+      "Kick"
+    ]
+  },
+  "banditpunch": {
+    "content": "You try to punch him squarely in the jaw, but he ducks and stabs you with his knife. The pain is immense, and your vision slowly fades to red, you die."
+  },
+  "banditkick": {
+    "content": "You decide to kick him, and ram your boot into his ankle. He roars in pain, and falls over. You jump over him and continue on your way to Baba Yaga’s house."
+  },
+  "bush": {
+    "content": "tobagayaga/bush"
+
+  }
+}

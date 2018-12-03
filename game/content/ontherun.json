@@ -1,0 +1,43 @@
+{
+  "intro": {
+    "content": "Now that you have escaped from the tyranny of your step-mother, you need to decide where to stay for the night.",
+    "options": [
+      "In a cave",
+      "Up a tree",
+      "In the sewer"
+    ]
+  },
+  "tree": {
+    "content": "You have decided to sleep in a large tree, and you settle down on a high branch. However, in the morning you hear a large snapping sound, and the branch you are on plummets to the ground. You die."
+  },
+  "sewer": {
+    "content": "You settle into the sewers, but suddenly large yellow eyes glow from all around you. Rats. They surround you and you scream and run home."
+  },
+  "cave": {
+    "content": "You enter the cave and spot some weird steps."
+  },
+  "weirdsteps": {
+    "content": "There are two paths you can take.",
+    "options": [
+      "Go down the steps",
+      "Stay in the cave"
+    ]
+  },
+  "stayincave": {
+    "content": "You stay in the cave but it's boring. You return home."
+  },
+  "spothouse": {
+    "content": "You spot a house with a light in it.",
+    "options": [
+      "Enter",
+      "Hide"
+    ]
+  },
+  "hidefromhouse": {
+    "content": "You hide and see you are surrounded by strange ruins.",
+    "options": [
+      "Scream",
+      "Wait"
+    ]
+  }
+}

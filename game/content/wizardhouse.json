@@ -1,0 +1,48 @@
+{
+  "enterhouse": {
+    "content": "You encounter an old man.",
+    "options": [
+      "Attack Him",
+      "Listen"
+    ]
+  },
+  "attemptattack": {
+    "content": "You can not kill the wizard."
+  },
+  "listentowizard": {
+    "content": "he enemy of bagyag. bagyag kill people. he need apprentice",
+    "options": [
+      "Become his apprentice",
+      "Beg him to fight BagYag"
+    ]
+  },
+  "begtofight": {
+    "content": "he starts to speak then everything goes white."
+  },
+  "becomeapprentice": {
+    "content": "after weeks of training you become a wizard."
+  },
+  "arrivebagayaga": {
+    "content": "You have arrived at Baga Yaga's house.",
+    "options": [
+      "Enter",
+      "Wait Outside"
+    ]
+  },
+  "waitoutsidebagayaga": {
+    "content": "you wait outside but baga yaga win."
+  },
+  "enterhousebagayaga": {
+    "content": "You enter the house. it is deserted",
+    "options": [
+      "Lie In Wait",
+      "Destroy The House"
+    ]
+  },
+  "destroyhousebagayaga": {
+    "content": "you destroy the house. baga yaga angy."
+  },
+  "explorehousebagayaga": {
+    "content": "TBA"
+  }
+}
