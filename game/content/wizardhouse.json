@@ -22,27 +22,41 @@
   "becomeapprentice": {
     "content": "after weeks of training you become a wizard."
   },
-  "arrivebagayaga": {
-    "content": "You have arrived at Baga Yaga's house.",
+  "arrivebabayaga": {
+    "content": "You have arrived at baba Yaga's house.",
     "options": [
       "Enter",
       "Wait Outside"
     ]
   },
-  "waitoutsidebagayaga": {
-    "content": "you wait outside but baga yaga win."
+  "waitoutsidebabayaga": {
+    "content": "you wait outside but baba yaga win."
   },
-  "enterhousebagayaga": {
+  "enterhousebabayaga": {
     "content": "You enter the house. it is deserted",
     "options": [
       "Lie In Wait",
       "Destroy The House"
     ]
   },
-  "destroyhousebagayaga": {
-    "content": "you destroy the house. baga yaga angy."
+  "destroyhousebabayaga": {
+    "content": "you destroy the house. baba yaga angy."
   },
-  "explorehousebagayaga": {
-    "content": "TBA"
+  "explorehousebabayaga": {
+    "content": "While searching the house you find a brilliant, bright candle. It glows with an etheral light. You decide to hold onto the candle. As you lie in wait, the sun slowly sets on the horizon and a rush of wind announces Baba Yaga's return.",
+    "options": [
+      "Hex Her",
+      "Light the Candle",
+      "Punch Her"
+    ]
+  },
+  "hidenexplore": {
+    "content": "You and your mentor hide from Baba Yaga, planning to ambush her when she falls asleep. You must decide how to attack."
+  },
+  "punchbabayaga": {
+    "content": "You curl your hand into a fist, and clock her Baba Yaga with a beautiful hit to the jaw. Bones break and Baba Yaga starts to fade into oblivion."
+  },
+  "candleonbabayaga": {
+    "content": "You light the candle and the light washes over Baba Yaga. She starts to disintergrate."
   }
 }

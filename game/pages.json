@@ -36,39 +36,39 @@
     "dadisgone": {
       "content": "homeintro/dadisgone",
       "options": [
-        "tobagayaga@path",
-        "tobagayaga@bush"
+        "tobabayaga@path",
+        "tobabayaga@bush"
       ]
     },
-    "tobagayaga@path": {
-      "content": "tobagayaga/path",
+    "tobabayaga@path": {
+      "content": "tobabayaga/path",
       "options": [
         "bandit@run",
         "bandit@fight"
       ]
     },
-    "tobagayaga@bush": {
-      "content": "tobagayaga/bush",
-      "next": "bagayaga@arrive"
+    "tobabayaga@bush": {
+      "content": "tobabayaga/bush",
+      "next": "babayaga@arrive"
     },
     "bandit@run": {
-      "content": "tobagayaga/banditrun",
-      "next": "bagayaga@arrive"
+      "content": "tobabayaga/banditrun",
+      "next": "babayaga@arrive"
     },
     "bandit@fight": {
-      "content": "tobagayaga/banditfight",
+      "content": "tobabayaga/banditfight",
       "options": [
         "bandit@punch",
         "bandit@kick"
       ]
     },
     "bandit@punch": {
-      "content": "tobagayaga/banditpunch",
+      "content": "tobabayaga/banditpunch",
       "next": "die"
     },
     "bandit@kick": {
-      "content": "tobagayaga/banditrun",
-      "next": "bagayaga@arrive"
+      "content": "tobabayaga/banditrun",
+      "next": "babayaga@arrive"
     },
     "ontherun": {
       "content": "ontherun/intro",
@@ -135,40 +135,165 @@
     },
     "wizardhouse@begtofight": {
       "content": "wizardhouse/begtofight",
-      "next": "bagayaga@arrive"
+      "next": "babayaga@arrive"
     },
     "wizardhouse@becomeapprentice": {
       "content": "wizardhouse/becomeapprentice",
-      "next": "bagayagafight@arrive"
+      "next": "babayagafight@arrive"
     },
-    "bagayagafight@arrive": {
-      "content": "wizardhouse/arrivebagayaga",
+    "babayagafight@arrive": {
+      "content": "wizardhouse/arrivebabayaga",
       "options": [
-        "bagayagafight@enterhouse",
-        "bagayagafight@waitoutside"
+        "babayagafight@enterhouse",
+        "babayagafight@waitoutside"
       ]
     },
-    "bagayagafight@waitoutside": {
-      "content": "wizardhouse/waitoutsidebagayaga",
+    "babayagafight@waitoutside": {
+      "content": "wizardhouse/waitoutsidebabayaga",
       "next": "die"
     },
-    "bagayagafight@enterhouse": {
-      "content": "wizardhouse/enterhousebagayaga",
+    "babayagafight@enterhouse": {
+      "content": "wizardhouse/enterhousebabayaga",
       "options": [
-        "bagayagafight@explorehouse",
-        "bagayagafight@destroy"
+        "babayagafight@explorehouse",
+        "babayagafight@destroy"
       ]
     },
-    "bagayagafight@explorehouse": {
-      "content": "wizardhouse/explorehousebagayaga",
+    "babayagafight@explorehouse": {
+      "content": "wizardhouse/explorehousebabayaga",
+      "options": [
+        "die",
+        "babayagafight@hidenexplore",
+        "babayagafight@candleonbabayaga"
+      ]
+    },
+    "babayagafight@hidenexplore": {
+      "content": "wizardhouse/hidenexplore",
+      "options": [
+        "die",
+        "babayagafight@candleonbabayaga",
+        "babayagafight@punchbabayaga"
+      ]
+    },
+    "babayagafight@punchbabayaga": {
+      "content": "wizardhouse/punchbabayaga",
+      "next": "win"
+    },
+    "babayagafight@candleonbabayaga": {
+      "content": "wizardhouse/candleonbabayaga",
+      "next": "win"
+    },
+    "babayagafight@destroy": {
+      "content": "wizardhouse/destroyhousebabayaga",
       "next": "die"
     },
-    "bagayagafight@destroy": {
-      "content": "wizardhouse/destroyhousebagayaga",
+    "babayaga@arrive": {
+      "content": "babayaga/arrive",
+      "options": [
+        "babayaga@hide",
+        "babayaga@introduce"
+      ]
+    },
+    "babayaga@hide": {
+      "content": "babayaga/hide",
+      "options": [
+        "babayaga@discover@whimper",
+        "babayaga@introduce"
+      ]
+    },
+    "babayaga@discover@whimper": {
+      "content": "babayaga/whimper",
       "next": "die"
+    },
+    "babayaga@introduce": {
+      "content": "babayaga/introduce",
+      "options": [
+        "babayaga@accept-tasks",
+        "babayaga@deny-tasks"
+      ]
+    },
+    "babayaga@deny-tasks": {
+      "content": "babayaga/refusetasks",
+      "next": "die"
+    },
+    "babayaga@accept-tasks": {
+      "content": "babayaga/accept-tasks",
+      "options": [
+        "babayaga@supper@lefthand",
+        "babayaga@supper@righthand"
+      ]
+    },
+    "babayaga@supper@lefthand": {
+      "content": "babayaga/supperdrop",
+      "next": "die"
+    },
+    "babayaga@supper@righthand": {
+      "content": "babayaga/righthand",
+      "next": "babayaga@day2"
+    },
+    "babayaga@day2": {
+      "content": "babayaga/tidyyard",
+      "options": [
+        "babayaga@failtask",
+        "babayaga@d2@rake"
+      ]
+    },
+    "babayaga@d2@rake": {
+      "content": "babayaga/cleanhut",
+      "options": [
+        "babayaga@failtask",
+        "babayaga@d2@tidypots"
+      ]
+    },
+    "babayaga@d2@tidypots": {
+      "content": "babayaga/tidypots",
+      "options": [
+        "babayaga@failtask",
+        "babayaga@d2@sortoutseeds"
+      ]
+    },
+    "babayaga@d2@sortoutseeds": {
+      "content": "babayaga/sortseeds",
+      "options": [
+        "babayaga@failtask",
+        "babayaga@d2@usedollseeds"
+      ]
+    },
+    "babayaga@d2@usedollseeds": {
+      "content": "babayaga/doneseeds",
+      "next": "babayaga@d3@soup"
+    },
+    "babayaga@d3@soup": {
+      "content": "babayaga/makepeasoup",
+      "options": [
+        "babayaga@failtask",
+        "babayaga@d3@askdollforhelp"
+      ]
+    },
+    "babayaga@d3@askdollforhelp": {
+      "content": "babayaga/sortedpeas",
+      "options": [
+        "babayaga@d3@bucketfilled",
+        "babayaga@failtask"
+      ]
+    },
+    "babayaga@d3@bucketfilled": {
+      "content": "babayaga/bucketfilled",
+      "next": "babayaga@d4@foundstars"
+    },
+    "babayaga@d4@foundstars": {
+      "content": "babayaga/foundstars",
+      "next": "win"
+    },
+    "babayaga@failtask": {
+      "next": "die",
+      "content": "babayaga/failtask"
     },
     "die": {
       "content": "main/die"
+    },
+    "win": {
+      "content": "main/win"
     }
   }
 }

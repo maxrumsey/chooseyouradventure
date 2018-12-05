@@ -91,6 +91,14 @@ class AdventureGame {
       .catch(e => {
         console.error(e);
       })
+      this.makeRequest(`game/content/babayaga.json`, 'get')
+        .then(content => {
+          // Adds file to content cache.
+          this.contents['babayaga'] = content.data;
+        })
+        .catch(e => {
+          console.error(e);
+        })
       this.makeRequest(`game/content/wizardhouse.json`, 'get')
         .then(content => {
           // Adds file to content cache.
@@ -107,10 +115,10 @@ class AdventureGame {
         .catch(e => {
           console.error(e);
         })
-      this.makeRequest(`game/content/tobagayaga.json`, 'get')
+      this.makeRequest(`game/content/tobabayaga.json`, 'get')
         .then(content => {
           // Adds file to content cache.
-          this.contents['tobagayaga'] = content.data;
+          this.contents['tobabayaga'] = content.data;
         })
         .catch(e => {
           console.error(e);

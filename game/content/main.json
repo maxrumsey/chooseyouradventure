@@ -8,5 +8,9 @@
   },
   "die": {
     "content": "You have died. Press <b>Restart Game</b> to restart."
+  },
+  "win": {
+    "image": "https://media.giphy.com/media/ZeOB7RGM9M8Ew/giphy.gif",
+    "content": "You win! Here's this .gif of Obama dancing on a pizza.<br><br>Coding by Max Rumsey. Writing By Oliver Rapanaro.<br><br><b>2018</b>"
   }
 }

@@ -1,0 +1,96 @@
+{
+  "arrive": {
+    "content": "You arrive at baba yaga house.",
+    "options": [
+      "Hide",
+      "Introduce Yourself"
+    ]
+  },
+  "hide": {
+    "content": "you found",
+    "options": [
+      "Whimper in Silence",
+      "Introduce Yourself"
+    ]
+  },
+  "whimper": {
+    "content": "you whimper"
+  },
+  "introduce": {
+    "content": "bla bla i baba yaga. do this",
+    "options": [
+      "Accept",
+      "Refuse"
+    ]
+  },
+  "refusetasks": {
+    "content": "you refuse. oof"
+  },
+  "accept-tasks": {
+    "content": "you gotta carry food",
+    "options": [
+      "Left Hand",
+      "Right Hand"
+    ]
+  },
+  "supperdrop": {
+    "content": "OOPS YOU DROP"
+  },
+  "righthand": {
+    "content": "you done good. tomorrow you gotta tidy yard. clean hut and tidy pots."
+  },
+  "failtask": {
+    "content": "You have chosen the wrong choice and failed the task. Baba Yaga is hungry and is not impressed by your failure."
+  },
+  "tidyyard": {
+    "content": "It's time to clean the yard. How do you do it?",
+    "options": [
+      "Mop the Yard",
+      "Rake the Yard"
+    ]
+  },
+  "cleanhut": {
+    "content": "you gotta clean hut now.",
+    "options": [
+      "Procrastinate",
+      "Do It Right Away"
+    ]
+  },
+  "tidypots": {
+    "content": "TIME TO TIDY POTS",
+    "options": [
+      "Use a Mop",
+      "Use your Hands"
+    ]
+  },
+  "sortseeds": {
+    "content": "You gotta sort out the seeds.",
+    "options": [
+      "Dab on Baga Yaga",
+      "Ask Doll For Help"
+    ]
+  },
+  "doneseeds": {
+    "content": "baba yaga impressed. wow! you gotta make pea soup and fill up this bucket of water using this sift."
+  },
+  "makepeasoup": {
+    "content": "you gotta make pea soup and sort out all of these peas. OOF!",
+    "options": [
+      "Run Away",
+      "Ask Doll For Help"
+    ]
+  },
+  "sortedpeas": {
+    "content": "you sort out peas but now water",
+    "options": [
+      "Ask Doll For Help",
+      "Flee"
+    ]
+  },
+  "bucketfilled": {
+    "content": "you filled the bucket. baba yaga impressed. count stars. you cant. doll tells you"
+  },
+  "foundstars": {
+    "content": "you find the stars. wow! you win"
+  }
+}
