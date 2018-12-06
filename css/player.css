@@ -1,11 +1,12 @@
 #main {
   position: absolute;
-  left: 25%;
-  top: 25%;
+  left: 12.5%;
+  top: 12.5%;
   background: white;
-  width: 50%;
+  width: 75%;
   height: 50%;
   text-align: center;
+  padding: 16px;
 }
 #main-image {
   position: relative;
@@ -20,4 +21,9 @@
   left: 0;
   right: 0;
   bottom: 0;
+}
+button {
+  padding: 5px;
+  border: 1px solid black;
+  font-weight: bold;
 }
