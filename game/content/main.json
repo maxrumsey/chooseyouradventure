@@ -1,6 +1,6 @@
 {
   "start": {
-    "content": "Welcome to the Game. Press <b>Next</b> to start the game.",
+    "content": "Welcome to the Game. Press <b>Next</b> to start the game.<br>This re-telling of a famous fairy-tale will illustrate ideas about gender and how not every young women needs a prince in shining armour.",
     "nextButtonContent": "Next!"
   },
   "intro": {
