@@ -64,17 +64,17 @@
     ]
   },
   "sortseeds": {
-    "content": "You have to sort out the seeds into two piles. Black and Yellow. There must be over  a million of those here.",
+    "content": "You have to sort out the seeds into two piles. Black and Yellow. There must be over a million of those here.",
     "options": [
       "Dab on Baga Yaga",
       "Ask Doll For Help"
     ]
   },
   "doneseeds": {
-    "content": "baba yaga impressed. wow! you gotta make pea soup and fill up this bucket of water using this sift."
+    "content": "Baba Yaga is impressed!"
   },
   "makepeasoup": {
-    "content": "you gotta make pea soup and sort out all of these peas. OOF!",
+    "content": "You now have to make pea soup.",
     "options": [
       "Run Away",
       "Ask Doll For Help"
