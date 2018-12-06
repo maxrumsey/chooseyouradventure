@@ -1,0 +1,19 @@
+{
+  "start": {
+    "content": "You leave home with travelling with everything you will need. It is getting late, what should you do?",
+    "options": [
+      "Sleep in the 5-star Bush",
+      "Give Up",
+      "Hitch-Hike"
+    ]
+  },
+  "ride": {
+    "content": "You ask a travelling townsman for transport. He accepts and allows you to ride on the back of his cart. However, you find out he is a human trafficker and end up in his custody."
+  },
+  "hide": {
+    "content": "You awake the next day sore, after spending the night in a bush. Your father is nowhere to be found. Tired, and ready to call it quits you start the long walk back home."
+  },
+  "reveal": {
+    "content": "You suprise him by appearing in a tavern as he is having a cold one. He orders you back home."
+  }
+}

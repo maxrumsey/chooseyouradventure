@@ -14,7 +14,7 @@
         "intro@dadrunaway",
         "intro@dadbegtostay",
         "intro@dadacceptgone",
-        "dadfollow"
+        "dadfollow@start"
       ]
     },
     "intro@dadrunaway": {
@@ -25,9 +25,25 @@
       "content": "homeintro/dadbegtostay",
       "next": "dadisgone"
     },
-    "dadfollow": {
+    "dadfollow@start": {
       "content": "dadfollow/start",
-      "next": "followingdad"
+      "options": [
+        "dadfollow@hide",
+        "dadfollow@reveal",
+        "dadfollow@catchride"
+      ]
+    },
+    "dadfollow@catchride": {
+      "next": "die",
+      "content": "dadfollow/ride"
+    },
+    "dadfollow@hide": {
+      "content": "dadfollow/hide",
+      "next": "dadisgone"
+    },
+    "dadfollow@reveal": {
+      "content": "dadfollow/reveal",
+      "next": "dadisgone"
     },
     "intro@dadacceptgone": {
       "content": "homeintro/dadacceptgone",

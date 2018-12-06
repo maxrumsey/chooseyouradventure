@@ -1,49 +1,49 @@
 {
   "enterhouse": {
-    "content": "You encounter an old man.",
+    "content": "You encounter an old man. He announces he is a wise and mystical wizard. He certainly looks the part. You find out that he is near death and is looking to mentor and train up a willing heir.",
     "options": [
       "Attack Him",
       "Listen"
     ]
   },
   "attemptattack": {
-    "content": "You can not kill the wizard."
+    "content": "Foolish human. You can not kill a creature as mystical as him with your fists."
   },
   "listentowizard": {
-    "content": "he enemy of bagyag. bagyag kill people. he need apprentice",
+    "content": "You listen to what he has to say. You find out that he is the enemy of Baba Yaga. Wondering what is so bad with Baba Yaga, you ask him. He makes you shudder with his words as he recalls her terrible acts. You wonder if he might be able to help you.",
     "options": [
       "Become his apprentice",
-      "Beg him to fight BagYag"
+      "Beg him to fight Baba Yaga"
     ]
   },
   "begtofight": {
-    "content": "he starts to speak then everything goes white."
+    "content": "He looks irritated and begins to open his mouth. Everything turns white as you feel the matter of your soul being pulled to another location."
   },
   "becomeapprentice": {
-    "content": "after weeks of training you become a wizard."
+    "content": "It has taken what seemed like forever, but you are now well-versed in witchcraft and wizardry. He announces in return for continuing his legacy he will help you to defeat Baba Yaga."
   },
   "arrivebabayaga": {
-    "content": "You have arrived at baba Yaga's house.",
+    "content": "Many a wizard has seen Baba Yaga, but none have attempted to defeat her. You are standing a short walk from her hut.",
     "options": [
-      "Enter",
+      "Enter the Hut",
       "Wait Outside"
     ]
   },
   "waitoutsidebabayaga": {
-    "content": "you wait outside but baba yaga win."
+    "content": "You lie in wait beyond the swamp surrounding her home. You feel the wind turn icy cold as you spot a figure approaching. Knowing it is Baba Yaga, you feel fear inside your stomach. Something is telling you that you won't make it out of here alive."
   },
   "enterhousebabayaga": {
-    "content": "You enter the house. it is deserted",
+    "content": "You enter the house. It is deserted.",
     "options": [
       "Lie In Wait",
       "Destroy The House"
     ]
   },
   "destroyhousebabayaga": {
-    "content": "you destroy the house. baba yaga angy."
+    "content": "You decide to burn the house to the ground. Upon Baba Yaga approaching, you feel the lifeblood of your being start to disintergrate."
   },
   "explorehousebabayaga": {
-    "content": "While searching the house you find a brilliant, bright candle. It glows with an etheral light. You decide to hold onto the candle. As you lie in wait, the sun slowly sets on the horizon and a rush of wind announces Baba Yaga's return.",
+    "content": "While searching the house you find a brilliant, bright candle. It glows with an etheral light. You decide to hold onto the candle. As you lie in wait, the sun slowly sets on the horizon and a rush of icy wind announces Baba Yaga's return.",
     "options": [
       "Hex Her",
       "Light the Candle",
@@ -54,7 +54,7 @@
     "content": "You and your mentor hide from Baba Yaga, planning to ambush her when she falls asleep. You must decide how to attack."
   },
   "punchbabayaga": {
-    "content": "You curl your hand into a fist, and clock her Baba Yaga with a beautiful hit to the jaw. Bones break and Baba Yaga starts to fade into oblivion."
+    "content": "You curl your hand into a fist, and clock the demonic Baba Yaga with a beautiful hit to the jaw. Bones break and Baba Yaga starts to fade into oblivion."
   },
   "candleonbabayaga": {
     "content": "You light the candle and the light washes over Baba Yaga. She starts to disintergrate."

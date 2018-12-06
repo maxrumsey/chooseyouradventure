@@ -14,7 +14,7 @@
     "content": "You settle into the sewers, but suddenly large yellow eyes glow from all around you. Rats. They surround you and you scream and run home."
   },
   "cave": {
-    "content": "You enter the cave and spot some weird steps."
+    "content": "You enter the cold and grimy cave and immediately spot some weird steps."
   },
   "weirdsteps": {
     "content": "There are two paths you can take.",
@@ -24,13 +24,13 @@
     ]
   },
   "stayincave": {
-    "content": "You stay in the cave but it's boring. You return home."
+    "content": "You stay in the cave but it's too boring for your liking. You return home."
   },
   "spothouse": {
     "content": "You spot a house with a light in it.",
     "options": [
       "Enter",
-      "Hide"
+      "Hide Outside"
     ]
   },
   "hidefromhouse": {

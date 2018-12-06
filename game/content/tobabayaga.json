@@ -7,14 +7,13 @@
     ]
   },
   "bush": {
-    "content": "You decide to walk off the path, to avoid bandit, and successfully arrive at Baba Yaga’s hut.",
-    "next": ""
+    "content": "You decide to walk off the path, to avoid the bandit you saw in the distance, and successfully arrive at Baba Yaga’s hut.",
   },
   "banditrun": {
-    "content": "You sensibly decide to run away, and you manage to avoid the bandit and arrive at Baba Yaga’s house."
+    "content": "You sensibly decide to run past him, and you manage to avoid the bandit and arrive at Baba Yaga’s house."
   },
   "banditfight": {
-    "content": "You decide to fight this wretched scum, and you have to decide what sort of move you will use.",
+    "content": "You decide to fight this wretched scum, and you have to decide how you will topple this beast of a man.",
     "options": [
       "Punch",
       "Kick"

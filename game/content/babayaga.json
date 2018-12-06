@@ -1,43 +1,43 @@
 {
   "arrive": {
-    "content": "You arrive at baba yaga house.",
+    "content": "You arrive at Baba Yaga's house. ",
     "options": [
       "Hide",
-      "Introduce Yourself"
+      "Knock on the Door and Introduce Yourself"
     ]
   },
   "hide": {
-    "content": "you found",
+    "content": "Baba Yaga enters her hut and spots you.",
     "options": [
       "Whimper in Silence",
       "Introduce Yourself"
     ]
   },
   "whimper": {
-    "content": "you whimper"
+    "content": "You whimper like a puppydog."
   },
   "introduce": {
-    "content": "bla bla i baba yaga. do this",
+    "content": "You introduce yourself to Baba Yaga. You tell her your situation and she agrees to give you the light if you complete her tasks.",
     "options": [
       "Accept",
       "Refuse"
     ]
   },
   "refusetasks": {
-    "content": "you refuse. oof"
+    "content": "Your stepmother or Baba Yaga won't take nicely to this."
   },
   "accept-tasks": {
-    "content": "you gotta carry food",
+    "content": "Baba Yaga asks her to carry to her, her lunch.",
     "options": [
       "Left Hand",
       "Right Hand"
     ]
   },
   "supperdrop": {
-    "content": "OOPS YOU DROP"
+    "content": "You drop the bowl and it's contents spills on the floor."
   },
   "righthand": {
-    "content": "you done good. tomorrow you gotta tidy yard. clean hut and tidy pots."
+    "content": "You give her her lunch.<br>You are instructed to tidy the pots, sweep the yard and clean the hut."
   },
   "failtask": {
     "content": "You have chosen the wrong choice and failed the task. Baba Yaga is hungry and is not impressed by your failure."
@@ -50,21 +50,21 @@
     ]
   },
   "cleanhut": {
-    "content": "you gotta clean hut now.",
+    "content": "You are instructed to clean Baba Yaga's house.",
     "options": [
       "Procrastinate",
       "Do It Right Away"
     ]
   },
   "tidypots": {
-    "content": "TIME TO TIDY POTS",
+    "content": "Baba Yaga has instructed you to tidy and clean her pots.",
     "options": [
-      "Use a Mop",
-      "Use your Hands"
+      "Clean the pots with a mop.",
+      "Use a rag."
     ]
   },
   "sortseeds": {
-    "content": "You gotta sort out the seeds.",
+    "content": "You have to sort out the seeds into two piles. Black and Yellow. There must be over  a million of those here.",
     "options": [
       "Dab on Baga Yaga",
       "Ask Doll For Help"
@@ -81,16 +81,16 @@
     ]
   },
   "sortedpeas": {
-    "content": "you sort out peas but now water",
+    "content": "You've sorted out the peas with the help of the doll but now you have to fill the bucket of water with the sieve.",
     "options": [
       "Ask Doll For Help",
       "Flee"
     ]
   },
   "bucketfilled": {
-    "content": "you filled the bucket. baba yaga impressed. count stars. you cant. doll tells you"
+    "content": "Baba Yaga is impressed. She instructs you to count all the stars in the night sky.<br>How will you do this?"
   },
   "foundstars": {
-    "content": "you find the stars. wow! you win"
+    "content": "Baba Yaga wakes to find you. You tell her the number of stars in the night sky. She is outrages. <br>\"Who told you?\" she demands. <br> You remind her that she owes you a light. You comply."
   }
 }

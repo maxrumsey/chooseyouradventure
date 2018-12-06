@@ -91,6 +91,14 @@ class AdventureGame {
       .catch(e => {
         console.error(e);
       })
+      this.makeRequest(`game/content/dadfollow.json`, 'get')
+        .then(content => {
+          // Adds file to content cache.
+          this.contents['dadfollow'] = content.data;
+        })
+        .catch(e => {
+          console.error(e);
+        })
       this.makeRequest(`game/content/babayaga.json`, 'get')
         .then(content => {
           // Adds file to content cache.
