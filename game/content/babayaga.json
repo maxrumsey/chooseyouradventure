@@ -59,8 +59,8 @@
   "tidypots": {
     "content": "Baba Yaga has instructed you to tidy and clean her pots.",
     "options": [
-      "Clean the pots with a mop.",
-      "Use a rag."
+      "Clean the pots with a mop",
+      "Use a rag"
     ]
   },
   "sortseeds": {
@@ -81,14 +81,14 @@
     ]
   },
   "sortedpeas": {
-    "content": "You've sorted out the peas with the help of the doll but now you have to fill the bucket of water with the sieve.",
+    "content": "You've sorted out the peas with the help of the doll and made her soup but now you have to fill the bucket of water with the sieve.",
     "options": [
       "Ask Doll For Help",
       "Flee"
     ]
   },
   "bucketfilled": {
-    "content": "Baba Yaga is impressed. She instructs you to count all the stars in the night sky.<br>How will you do this?"
+    "content": "Baba Yaga is impressed. She instructs you to count all the stars in the night sky.<br>Seeing your despair, your doll whispers in your ear the number. I would tell you, but the number is too large to list."
   },
   "foundstars": {
     "content": "Baba Yaga wakes to find you. You tell her the number of stars in the night sky. She is outrages. <br>\"Who told you?\" she demands. <br> You remind her that she owes you a light. You comply."
