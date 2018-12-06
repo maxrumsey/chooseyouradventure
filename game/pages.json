@@ -83,7 +83,7 @@
       "next": "die"
     },
     "bandit@kick": {
-      "content": "tobabayaga/banditrun",
+      "content": "tobabayaga/banditkick",
       "next": "babayaga@arrive"
     },
     "ontherun": {

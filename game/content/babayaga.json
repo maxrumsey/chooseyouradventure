@@ -24,10 +24,10 @@
     ]
   },
   "refusetasks": {
-    "content": "Your stepmother or Baba Yaga won't take nicely to this."
+    "content": "Your stepmother or Baba Yaga won't take nicely to this. You feel the rage inside of Baba Yaga building up."
   },
   "accept-tasks": {
-    "content": "Baba Yaga asks her to carry to her, her lunch.",
+    "content": "Seeing you eye Baba Yaga's lunch on the stove, she instructs you to serve her a plate. In which hand do you carry the witch's lunch?",
     "options": [
       "Left Hand",
       "Right Hand"
@@ -37,60 +37,60 @@
     "content": "You drop the bowl and it's contents spills on the floor."
   },
   "righthand": {
-    "content": "You give her her lunch.<br>You are instructed to tidy the pots, sweep the yard and clean the hut."
+    "content": "You give her, her lunch.<br>Baba Yaga instructs you to tidy her large collection of pots, sweep her yard and clean the hut."
   },
   "failtask": {
     "content": "You have chosen the wrong choice and failed the task. Baba Yaga is hungry and is not impressed by your failure."
   },
   "tidyyard": {
-    "content": "It's time to clean the yard. How do you do it?",
+    "content": "You walk outside the hut to evaluate the state of messiness. It's not too messy. How do you clean it?",
     "options": [
-      "Mop the Yard",
-      "Rake the Yard"
+      "Mop",
+      "Rake"
     ]
   },
   "cleanhut": {
-    "content": "You are instructed to clean Baba Yaga's house.",
+    "content": "Once you finish raking the yard to perfection, you must now clean and tidy Baba Yaga's hut.",
     "options": [
       "Procrastinate",
       "Do It Right Away"
     ]
   },
   "tidypots": {
-    "content": "Baba Yaga has instructed you to tidy and clean her pots.",
+    "content": "Satisfied that the hut is tidy, you move onto the pots.",
     "options": [
       "Clean the pots with a mop",
-      "Use a rag"
+      "Clean the pots with a rag"
     ]
   },
   "sortseeds": {
-    "content": "You have to sort out the seeds into two piles. Black and Yellow. There must be over a million of those here.",
+    "content": "Baba Yaga's large collection of pots have been cleaned successfully. You have tasked to sort a large amount of pumpkin seeds into two piles: Black and Yellow. There must be over a million of those here. It would be clearly impossible to complete that task within a week. Once you do that you can make Baba Yaga's dinner.",
     "options": [
       "Dab on Baga Yaga",
-      "Ask Doll For Help"
+      "Ask Your Doll For Help"
     ]
   },
   "doneseeds": {
-    "content": "Baba Yaga is impressed!"
+    "content": "You stare with desperation at the seeds than look out the window. When you turn back you gasp in surprise to see the seeds neatly sorted into two piles. You can feel your doll's helping hand. "
   },
   "makepeasoup": {
-    "content": "You now have to make pea soup.",
+    "content": "Next you must now cook the witch her lunch. Again, you are not sure how you are going to accomplish this seeing you have little experience cooking in the first place.",
     "options": [
       "Run Away",
       "Ask Doll For Help"
     ]
   },
   "sortedpeas": {
-    "content": "You've sorted out the peas with the help of the doll and made her soup but now you have to fill the bucket of water with the sieve.",
+    "content": "Happy to see her lunch, but angry that you have passed all of her tests, Baba Yaga tells you to fill a large bucket of water with a colainder. How would you do this?",
     "options": [
       "Ask Doll For Help",
       "Flee"
     ]
   },
   "bucketfilled": {
-    "content": "Baba Yaga is impressed. She instructs you to count all the stars in the night sky.<br>Seeing your despair, your doll whispers in your ear the number. I would tell you, but the number is too large to list."
+    "content": "Baba Yaga is impressed that you managed to fill the bucket. She instructs you to count all the stars in the night sky.<br>At night, you begin to start counting the stars. 1, 2, 3, 4679. You quickly lose count. Just as you are about to give up, you hear a whisper in your ear. Your doll has told you the answer."
   },
   "foundstars": {
-    "content": "Baba Yaga wakes to find you. You tell her the number of stars in the night sky. She is outrages. <br>\"Who told you?\" she demands. <br> You remind her that she owes you a light. She breaks ino a grin. With that, she sends you on your way back home."
+    "content": "Baba Yaga wakes. She fumed as you told her the answer. \"Who Told You?!\" she roars. Refusing to tell her, you remind her of the agreement. She smiles, and sets you on your way back home, light in hand."
   }
 }
